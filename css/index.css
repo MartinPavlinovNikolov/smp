@@ -1,0 +1,684 @@
+@font-face {
+  font-family: 'Acumin Pro';
+  src: url(/fonts/Acumin-BdItPro.otf);
+  src: url(/fonts/Acumin-BdPro.otf);
+  src: url(/fonts/Acumin-RPro.otf);
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  background: white;
+  font-family: 'Acumin Pro';
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+#header {
+  height: 10rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+body #headerBox a {
+  font-size: 28px;
+}
+
+body #firstBox {
+  background: #0d6c95;
+  margin-top: 2rem;
+}
+
+body #firstBox ul li {
+  color: white;
+  text-align: left;
+  padding-right: 2rem;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 3.4rem;
+}
+
+body #firstBox h3 {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+  margin-left: 8rem;
+  font-size: 30px;
+}
+
+body #firstBox a {
+  color: white;
+}
+
+body li.nav-item {
+  background: #0c6c96;
+  width: 10rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+body li.nav-item a {
+  color: white;
+}
+
+body #aboutUs h2 {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+body #aboutUs h3 {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  padding-bottom: 6rem;
+}
+
+body #wahtIsScalp {
+  background: #0c6c96;
+  color: white;
+}
+
+body #wahtIsScalp h2 {
+  padding-top: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+body #wahtIsScalp h3 {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 9rem;
+  padding-bottom: 6rem;
+}
+
+body #howLong {
+  background-image: url(/images/Gradient1.png);
+  background-repeat: no-repeat;
+  margin-top: -1rem;
+  padding-bottom: 4rem;
+}
+
+body #howLong h2 {
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+body #howLong h3 {
+  padding-top: 4rem;
+  font-size: 21px;
+  padding-bottom: 6rem;
+  padding-left: 5rem;
+  padding-right: 0rem;
+}
+
+body #howLong img {
+  width: 15rem;
+  height: 20rem;
+}
+
+body #doesItHurt {
+  background: #0c6c96;
+  color: white;
+  padding-bottom: 6rem;
+}
+
+body #doesItHurt h2 {
+  padding-top: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+body #doesItHurt h3 {
+  font-size: 21px;
+  margin-left: 8rem;
+  margin-bottom: 0.5rem;
+  margin-right: 12rem;
+}
+
+body #isSmp h2 {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+body #isSmp h3 {
+  font-size: 21px;
+  padding-left: 8rem;
+  padding-right: 2rem;
+}
+
+body #cost {
+  background: #0c6c96;
+  color: white;
+}
+
+body #cost h2 {
+  padding-top: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body #cost h3 {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  padding-bottom: 3rem;
+}
+
+body #cost .form-group {
+  margin-left: 37rem;
+  margin-left: 37rem;
+}
+
+body #cost .form-group #BSbtnsuccess {
+  display: none;
+}
+
+body #cost .form-group label:hover {
+  cursor: pointer;
+}
+
+body #cost .form-group label {
+  background: white;
+  border-radius: 20px;
+  color: #0c6c96;
+  height: 3.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+body #ourClients {
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+body #ourClients h2 {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+body #ourClients h3 {
+  padding-top: 2rem;
+  padding-left: 8rem;
+  padding-right: 7rem;
+  padding-bottom: 6rem;
+}
+
+body #footer {
+  background: #0d6c95;
+  height: 7rem;
+}
+
+body #navFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2rem;
+}
+
+body #navFooter li {
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
+  body h2 {
+    font-size: 1.8rem;
+  }
+  body h3 {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #headerBox a {
+    font-size: 15px;
+    width: 107%;
+    text-transform: uppercase;
+  }
+  body li.nav-item {
+    background: #0c6c96;
+    width: unset;
+    margin-left: -7px;
+    margin-right: 7px;
+  }
+  body #firstBox {
+    display: block;
+  }
+  body #firstBox .col-8 img {
+    width: 23rem;
+  }
+  body #firstBox .col-4 h3 {
+    margin-left: 6rem;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  body #firstBox h3 {
+    font-size: 20px;
+    padding: unset;
+  }
+  body #firstBox .row {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body #firstBox ul li {
+    color: white;
+    text-align: left;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 3.3rem;
+  }
+  body #firstBox .col-10 {
+    width: 28rem;
+  }
+  body #firstBox .col-2 img {
+    margin-left: 1rem;
+  }
+  body #aboutUs h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #wahtIsScalp h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+  body #doesItHurt h3 {
+    font-size: 21px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0rem;
+  }
+  body #isSmp h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 21rem;
+  }
+  body #isSmp .row {
+    display: inline-block;
+  }
+  body #isSmp img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 21rem;
+    height: 18rem;
+  }
+  body #howLong h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 21rem;
+    padding-bottom: 0rem;
+  }
+  body #howLong .row {
+    display: inline-block;
+  }
+  body #howLong img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 21rem;
+    height: 18rem;
+  }
+  body #cost {
+    padding-bottom: 3rem;
+  }
+  body #cost .form-group {
+    padding: unset;
+    margin-left: 1.5rem;
+  }
+  body #cost .form-group #BSbtnsuccess {
+    display: none;
+  }
+  body #cost .form-group label {
+    margin-top: 2rem;
+  }
+  body #cost h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #cost body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+  body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  body #navFooter {
+    margin: unset;
+  }
+  body #navFooter li {
+    padding: unset;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 575px) {
+  body h2 {
+    font-size: 1.8rem;
+  }
+  body h3 {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #headerBox a {
+    font-size: 15px;
+    width: 107%;
+    text-transform: uppercase;
+  }
+  body li.nav-item {
+    background: #0c6c96;
+    width: unset;
+    margin-left: -7px;
+    margin-right: 17px;
+  }
+  body #firstBox {
+    display: block;
+  }
+  body #firstBox .col-8 img {
+    width: 154%;
+  }
+  body #firstBox .col-4 h3 {
+    margin-left: 13rem;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  body #firstBox h3 {
+    font-size: 20px;
+    padding: unset;
+  }
+  body #firstBox .row {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body #firstBox ul li {
+    color: white;
+    text-align: left;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 3.3rem;
+  }
+  body #firstBox .col-10 {
+    width: 35rem;
+    padding-left: 4rem;
+  }
+  body #firstBox .col-2 img {
+    margin-left: 3rem;
+  }
+  body #aboutUs h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #wahtIsScalp h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+  body #doesItHurt h3 {
+    font-size: 21px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0rem;
+  }
+  body #isSmp h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 35rem;
+  }
+  body #isSmp .row {
+    display: inline-block;
+  }
+  body #isSmp img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 34rem;
+    height: 30rem;
+  }
+  body #howLong h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 35rem;
+    padding-bottom: 0rem;
+  }
+  body #howLong .row {
+    display: inline-block;
+  }
+  body #howLong img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 33rem;
+    height: 33rem;
+  }
+  body #cost {
+    padding-bottom: 3rem;
+  }
+  body #cost .form-group {
+    padding: unset;
+    margin-left: 7.5rem;
+  }
+  body #cost .form-group #BSbtnsuccess {
+    display: none;
+  }
+  body #cost .form-group label {
+    margin-top: 2rem;
+  }
+  body #cost h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #cost body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+  body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  body h2 {
+    font-size: 1.8rem;
+  }
+  body h3 {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #headerBox a {
+    font-size: 15px;
+    width: 107%;
+    text-transform: uppercase;
+  }
+  body li.nav-item {
+    background: #0c6c96;
+    width: unset;
+    margin-left: -7px;
+    margin-right: 17px;
+  }
+  body #firstBox {
+    display: block;
+  }
+  body #firstBox .col-8 img {
+    width: 154%;
+  }
+  body #firstBox .col-4 h3 {
+    margin-left: 13rem;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  body #firstBox h3 {
+    font-size: 20px;
+    padding: unset;
+  }
+  body #firstBox .row {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body #firstBox ul li {
+    color: white;
+    text-align: left;
+    padding-right: 2rem;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 3.3rem;
+  }
+  body #firstBox .col-10 {
+    width: 35rem;
+    padding-left: 4rem;
+  }
+  body #firstBox .col-2 img {
+    margin-left: 3rem;
+  }
+  body #aboutUs h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #wahtIsScalp h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+  }
+  body #doesItHurt h3 {
+    font-size: 21px;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0rem;
+  }
+  body #isSmp h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 46rem;
+  }
+  body #isSmp .row {
+    display: inline-block;
+  }
+  body #isSmp img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  body #isSmp .col-6 {
+    max-width: 100%;
+  }
+  body #howLong h3 {
+    font-size: 21px;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    width: 45rem;
+    padding-bottom: 0rem;
+  }
+  body #howLong .row {
+    display: inline-block;
+  }
+  body #howLong img {
+    vertical-align: middle;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 19rem;
+  }
+  body #howLong .col-7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body #cost {
+    padding-bottom: 3rem;
+  }
+  body #cost .form-group {
+    padding: unset;
+    margin-left: 14.5rem;
+  }
+  body #cost .form-group #BSbtnsuccess {
+    display: none;
+  }
+  body #cost .form-group label {
+    margin-top: 2rem;
+  }
+  body #cost h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+  }
+  body #cost body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+  }
+  body #ourClients h3 {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,872 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url(/fonts/Acumin-BdItPro.otf);
+    src: url(/fonts/Acumin-BdPro.otf);
+    src: url(/fonts/Acumin-RPro.otf);
+    font-weight: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body {
+    background: white;
+    font-family: 'Acumin Pro';
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+#header {
+
+    height: 10rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+body {
+    #headerBox {
+        a {
+            font-size: 28px;
+
+        }
+    }
+
+    #firstBox {
+        background: #0d6c95;
+        margin-top: 2rem;
+
+        ul li {
+            color: white;
+            text-align: left;
+            padding-right: 2rem;
+            text-decoration: none;
+            font-size: 28px;
+            line-height: 3.4rem;
+        }
+
+        h3 {
+            color: white;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-top: 4rem;
+            padding-bottom: 3rem;
+            margin-left: 8rem;
+            font-size: 30px;
+        }
+
+        a {
+            color: white;
+        }
+    }
+
+    li.nav-item {
+        background: rgb(12, 108, 150);
+        width: 10rem;
+        margin-left: 1rem;
+        text-align: center;
+
+
+        a {
+            color: white;
+        }
+    }
+
+    #aboutUs {
+        h2 {
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 8rem;
+            padding-right: 7rem;
+            padding-bottom: 6rem;
+
+        }
+    }
+
+    #wahtIsScalp {
+        background: rgb(12, 108, 150);
+        color: white;
+
+        h2 {
+            padding-top: 4rem;
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 8rem;
+            padding-right: 9rem;
+            padding-bottom: 6rem;
+
+        }
+    }
+
+    #howLong {
+        background-image: url(/images/Gradient1.png);
+        background-repeat: no-repeat;
+        margin-top: -1rem;
+        padding-bottom: 4rem;
+
+        h2 {
+            text-align: center;
+            padding-top: 4rem;
+            font-weight: bold;
+            margin-top: 16px;
+        }
+
+        h3 {
+            padding-top: 4rem;
+            font-size: 21px;
+            padding-bottom: 6rem;
+            padding-left: 5rem;
+            padding-right: 0rem;
+        }
+
+        img {
+            width: 15rem;
+            height: 20rem;
+            ;
+        }
+
+    }
+
+    #doesItHurt {
+        background: rgb(12, 108, 150);
+        color: white;
+        padding-bottom: 6rem;
+
+
+        h2 {
+            padding-top: 4rem;
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+            padding-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 21px;
+            margin-left: 8rem;
+            margin-bottom: 0.5rem;
+            margin-right: 12rem;
+
+
+        }
+    }
+
+    #isSmp {
+        h2 {
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+        }
+
+        h3 {
+
+            font-size: 21px;
+
+            padding-left: 8rem;
+            padding-right: 2rem;
+
+        }
+    }
+
+    #cost {
+        background: rgb(12, 108, 150);
+        color: white;
+
+        h2 {
+            padding-top: 4rem;
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 8rem;
+            padding-right: 7rem;
+            padding-bottom: 3rem;
+
+        }
+
+        .form-group {
+            #BSbtnsuccess {
+                display: none;
+            }
+
+            margin-left: 37rem;
+
+            label:hover {
+                cursor: pointer;
+            }
+
+            margin-left: 37rem;
+
+            label {
+                background: white;
+                border-radius: 20px;
+                color: rgb(12, 108, 150);
+                height: 3.5rem;
+                padding-bottom: 2rem;
+                padding-top: 1rem;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+    }
+
+
+    #ourClients {
+        background-repeat: no-repeat;
+        height: 20rem;
+
+        h2 {
+            text-align: center;
+            margin-top: 4rem;
+            font-weight: bold;
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 8rem;
+            padding-right: 7rem;
+            padding-bottom: 6rem;
+
+        }
+    }
+
+    #footer {
+        background: #0d6c95;
+        height: 7rem;
+    }
+
+}
+
+body #navFooter {
+    display: flex;
+    margin-left: 2rem;
+
+
+
+    li {
+        padding: 1rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+// https://codepen.io/redfrost/pen/JKaoE //
+
+
+@media (min-width: 300px) and (max-width: 360px) {
+    body h2 {
+        font-size: 1.8rem;
+
+    }
+
+    body h3 {
+
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+
+    }
+
+    body #headerBox a {
+        font-size: 15px;
+        width: 107%;
+        text-transform: uppercase;
+    }
+
+    body li.nav-item {
+        background: #0c6c96;
+        width: unset;
+        margin-left: -7px;
+        margin-right: 7px;
+
+    }
+
+    body #firstBox {
+        display: block;
+
+
+        .col-8 img {
+            width: 23rem;
+        }
+
+        .col-4 h3 {
+            margin-left: 6rem;
+            width: 9rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+
+        }
+
+        h3 {
+            font-size: 20px;
+            padding: unset;
+        }
+
+        .row {
+            display: inline-flex;
+        }
+
+        ul li {
+            color: white;
+            text-align: left;
+            padding-right: 2rem;
+            text-decoration: none;
+            font-size: 22px;
+            line-height: 3.3rem;
+        }
+
+        .col-10 {
+            width: 28rem;
+        }
+
+        .col-2 img {
+            margin-left: 1rem;
+        }
+    }
+
+    body #aboutUs {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+    }
+
+    body #wahtIsScalp {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    body #doesItHurt h3 {
+        font-size: 21px;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0rem;
+    }
+
+    body #isSmp {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 21rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 21rem;
+            height: 18rem;
+        }
+
+    }
+
+    body #howLong {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 21rem;
+            padding-bottom: 0rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 21rem;
+            height: 18rem;
+        }
+    }
+
+    body #cost {
+        padding-bottom: 3rem;
+
+        .form-group {
+            padding: unset;
+            margin-left: 1.5rem;
+
+            #BSbtnsuccess {
+                display: none;
+            }
+
+            label {
+                margin-top: 2rem;
+            }
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        body #ourClients h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    body #ourClients {
+
+
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    body #navFooter {
+        margin: unset;
+
+        li {
+            padding: unset;
+            padding-top: 1rem;
+            padding-right: 1rem;
+        }
+    }
+}
+
+
+
+
+@media (min-width:361px) and (max-width:575px) {
+
+    body h2 {
+        font-size: 1.8rem;
+
+    }
+
+    body h3 {
+
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+
+    }
+
+    body #headerBox a {
+        font-size: 15px;
+        width: 107%;
+        text-transform: uppercase;
+    }
+
+    body li.nav-item {
+        background: #0c6c96;
+        width: unset;
+        margin-left: -7px;
+        margin-right: 17px;
+
+    }
+
+    body #firstBox {
+        display: block;
+
+
+        .col-8 img {
+            width: 154%;
+        }
+
+        .col-4 h3 {
+            margin-left: 13rem;
+            width: 9rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+
+        }
+
+        h3 {
+            font-size: 20px;
+            padding: unset;
+        }
+
+        .row {
+            display: inline-flex;
+        }
+
+        ul li {
+            color: white;
+            text-align: left;
+            padding-right: 2rem;
+            text-decoration: none;
+            font-size: 22px;
+            line-height: 3.3rem;
+        }
+
+        .col-10 {
+            width: 35rem;
+            padding-left: 4rem;
+        }
+
+        .col-2 img {
+            margin-left: 3rem;
+        }
+    }
+
+    body #aboutUs {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+    }
+
+    body #wahtIsScalp {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    body #doesItHurt h3 {
+        font-size: 21px;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0rem;
+    }
+
+    body #isSmp {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 35rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 34rem;
+            height: 30rem;
+        }
+
+    }
+
+    body #howLong {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 35rem;
+            padding-bottom: 0rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 33rem;
+            height: 33rem;
+        }
+    }
+
+    body #cost {
+        padding-bottom: 3rem;
+
+        .form-group {
+            padding: unset;
+            margin-left: 7.5rem;
+
+            #BSbtnsuccess {
+                display: none;
+            }
+
+            label {
+                margin-top: 2rem;
+            }
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        body #ourClients h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    body #ourClients {
+
+
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width:576px) and (max-width:768px) {
+
+    body h2 {
+        font-size: 1.8rem;
+
+    }
+
+    body h3 {
+
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+
+    }
+
+    body #headerBox a {
+        font-size: 15px;
+        width: 107%;
+        text-transform: uppercase;
+    }
+
+    body li.nav-item {
+        background: #0c6c96;
+        width: unset;
+        margin-left: -7px;
+        margin-right: 17px;
+
+    }
+
+    body #firstBox {
+        display: block;
+
+
+        .col-8 img {
+            width: 154%;
+        }
+
+        .col-4 h3 {
+            margin-left: 13rem;
+            width: 9rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+
+        }
+
+        h3 {
+            font-size: 20px;
+            padding: unset;
+        }
+
+        .row {
+            display: inline-flex;
+        }
+
+        ul li {
+            color: white;
+            text-align: left;
+            padding-right: 2rem;
+            text-decoration: none;
+            font-size: 22px;
+            line-height: 3.3rem;
+        }
+
+        .col-10 {
+            width: 35rem;
+            padding-left: 4rem;
+        }
+
+        .col-2 img {
+            margin-left: 3rem;
+        }
+    }
+
+    body #aboutUs {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+    }
+
+    body #wahtIsScalp {
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    body #doesItHurt h3 {
+        font-size: 21px;
+        margin-left: 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0rem;
+    }
+
+    body #isSmp {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 46rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 15rem;
+            height: 15rem;
+        }
+
+        .col-6 {
+            max-width: 100%;
+        }
+
+    }
+
+    body #howLong {
+        h3 {
+            font-size: 21px;
+            padding-left: 1rem;
+            padding-right: 2rem;
+            width: 45rem;
+            padding-bottom: 0rem;
+        }
+
+        .row {
+            display: inline-block;
+        }
+
+        img {
+            vertical-align: middle;
+            margin-top: 1rem;
+            width: 20rem;
+            height: 19rem;
+        }
+
+        .col-7 {
+            display: flex;
+
+        }
+    }
+
+    body #cost {
+        padding-bottom: 3rem;
+
+        .form-group {
+            padding: unset;
+            margin-left: 14.5rem;
+
+            #BSbtnsuccess {
+                display: none;
+            }
+
+            label {
+                margin-top: 2rem;
+            }
+        }
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 0rem;
+        }
+
+        body #ourClients h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 0rem;
+            padding-bottom: 1rem;
+        }
+    }
+
+    body #ourClients {
+
+
+
+        h3 {
+            padding-top: 2rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) {}

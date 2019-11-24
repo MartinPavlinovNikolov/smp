@@ -1,0 +1,15 @@
+Fonts:
+
+Download Link: https://github.com/r4in/typefaces/find/master
+
+Buttons: Acumin Pro- Regular- 28
+
+
+Headings: Acumin Pro- Bold- 30
+
+
+Description: Acumin Pro- Regular- 21
+
+Contacts- Acumin Pro- Bold- 32 
+
+Contact Info- Acumin Pro- Regular- 20
