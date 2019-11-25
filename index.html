@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="./css/mi-config.css">
   <link rel="stylesheet" href="./css/mi.css">
   <link rel="stylesheet" href="./css/nav.css">
-  <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
-  <!--<link rel="stylesheet" href="./css/main/footer.css">-->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -28,13 +27,13 @@
 
       <ul class="nav mi-items-right">
         <li class="nav-item">
-          <a href="#about-us">About us</a>
+          <a id="about-us-link" href="#about-us">About us</a>
         </li>
         <li class="nav-item">
-          <a href="#what-is-scalp">Treatments</a>
+          <a id="what-is-scalp-link" href="#what-is-scalp">Treatments</a>
         </li>
         <li class="nav-item">
-          <a href="#pricing">Pricing</a>
+          <a id="pricing-link" href="#pricing">Pricing</a>
         </li>
       </ul>
     </nav>
@@ -72,11 +71,11 @@
 
     <main class="mi-main mi-column">
         <section class="mi-column mi-width-100">
-          <h2>ABOUT US</h2>
+          <h2 id="about-us">ABOUT US</h2>
           <p class="mi-width-90">S&A SMP SOLUTIONS was established to perform a Scalp micropigmentation to a high standard. Our practitioner, Stan, is fully trained and certified. Being in the Hair Transplant industry for over eight years, he has worked alongside high profile surgeons in the field and obtained a detailed knowledge in the aspects of hair loss solutions.</p>
         </section>
         <section class="mi-column mi-width-100">
-          <h2>WHAT IS SCALP MICROPIGMENTATION</h2>
+          <h2 id="what-is-scalp">WHAT IS SCALP MICROPIGMENTATION</h2>
           <p class="mi-width-90">Scalp Micropigmentation is safe, non-surgical and non-invasive treatment, which is affordable solution for restoring confidence in both male and female individuals, who suffer from hair loss. Through detailed micro-needles, organic pigment is deposited at the epidermal level of the scalp, naturally replicating the appearance of real shaved hair follicle. This effect is 100% natural looking and is not recognizable as a hair simulation. By accurately replicating your own natural hair follicles and hair color, scalp micropigmentation can add density to thinning areas, creating an undetectable illusion of thicker, stronger and fuller hair. Further to that SMP is affordable solution for covering scars, received from previous hair transplant surgery or any other reason. In most cases, an SMP treatment lasts for three to five years before the patient needs to have another treatment done because of the fading of the pigments.</p>
         </section>
         <section class="mi-column mi-width-100">
@@ -86,7 +85,7 @@
             <div class="gallery-images">
               <img class="gallery-1" src="./images/gallery1.jpg" alt="example-1">
               <img class="gallery-2" src="./images/gallery2.jpg" alt="example-2">
-              <img class="gallery-3" src="./images/gallery3.jpg" alt="example-2">
+              <img class="gallery-3" src="./images/gallery3.jpg" alt="example-3">
             </div>
           </div>
         </section>
@@ -96,221 +95,75 @@
         </section>
         <section class="mi-column mi-width-100">
           <h2>IS SMP JUST FOR MAN?</h2>
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
-          <p class="mi-width-90">Scalp micropigmentation is suitable for both men and women however, there is a difference between SMP for men and women. Like men, women also can suffer from hair loss or thinning hair. In most of the cases however, women tend to lose hair evenly and is very unlikely that they go completely bald. SMP is used to restore the denser look of healthy hair and reduce the contrast between the scalp and the hairline in this case. While most of the male patients would require to shave down their hair prior to the treatment, this is not necessary for female patients. Instead, the practitioner applies pigmentation by parting the hair section by section.</p>
+          <div class="gallery2-wrapper">
+            <p class="gallery2-text">Scalp micropigmentation is suitable for both men and women however, there is a difference between SMP for men and women. Like men, women also can suffer from hair loss or thinning hair. In most of the cases however, women tend to lose hair evenly and is very unlikely that they go completely bald. SMP is used to restore the denser look of healthy hair and reduce the contrast between the scalp and the hairline in this case. While most of the male patients would require to shave down their hair prior to the treatment, this is not necessary for female patients. Instead, the practitioner applies pigmentation by parting the hair section by section.</p>
+            <div class="gallery2-images">
+              <img class="gallery2-1" src="./images/gallery2-1.jpg" alt="example-4">
+              <img class="gallery2-2" src="./images/gallery2-2.jpg" alt="example-5">
+              <img class="gallery2-3" src="./images/gallery2-3.jpg" alt="example-6">
+            </div>
+          </div>
         </section>
         <section class="mi-column mi-width-100">
-          <h2>COST OF TREATMENT</h2>
+          <h2 id="pricing">COST OF TREATMENT</h2>
           <p class="mi-width-90">SMP price is strongly individual from person to person and depends on the area treated. Providing us with a photo of the concerned area is highly recommended to estimate the exact cost. Free phone consultation is also available.</p>
-          <img src="" alt="">
+          <form style="display: none" method="POST" action="./upload-image" enctype="multipart/form-data">
+            <input id="uploaded-image" type="file" name="uploaded-image">
+          </form>
+          <label for="uploaded-image" class="upload-image">UPLOAD YOUR IMAGE HERE</label>
           <p class="mi-width-90">An initial consultation may be booked for a detailed information and explanation at the cost of 20£, which will be fully refunded to you should you decide to book the complete treatment.</p>
         </section>
         <section class="mi-column mi-width-100">
           <h2>OUR CLIENTS</h2>
-          slider
+
+          <div id="slider">
+            <span class="control_next">></span>
+            <span href="#" class="control_prev"><</span>
+            <ul>
+              <li class="slide-image-bundle">
+                <img class="slide-image" src="./images/bundle1-slide1.jpg">
+                <img class="slide-image" src="./images/bundle1-slide2.png">
+                <img class="slide-image" src="./images/bundle1-slide3.jpg">
+              </li>
+              <li class="slide-image-bundle">
+                <img class="slide-image" src="./images/bundle1-slide1.jpg">
+                <img class="slide-image" src="./images/bundle1-slide2.png">
+                <img class="slide-image" src="./images/bundle1-slide3.jpg">
+              </li>
+              <li class="slide-image-bundle">
+                <img class="slide-image" src="./images/bundle1-slide1.jpg">
+                <img class="slide-image" src="./images/bundle1-slide2.png">
+                <img class="slide-image" src="./images/bundle1-slide3.jpg">
+              </li>
+            </ul>  
+          </div>
         </section>
     </main>
 
-    <footer class="mi-footer"></footer>
-
-  </div>
-
-
-
-
-  <!--<div class="row" id="firstBox">
-
-    <div class="col-8">
-      <img class="tumbnail" src="images/Header Image+ Logo.jpg" alt="header-image">
-
-
-    </div>
-    <div class="col-4">
-      <h3>CONTACT US</h3>
-
-      <div class="row">
-        <div class="col-2">
-          <img src="images/Instagram.png">
-
-        </div>
-
-
-        <div class="col-10">
-
-
-          <ul class="list-unstyled">
-            <li>354 Mansfield Rd Nottingham</li>
-            <li><a href="tel:07864152773">07864152773</a></li>
-            <li><a href="mailto:info@scalpandart.co.uk">info@scalpandart.co.uk</a></li>
-            <li><a href="https://www.facebook.com/scalpandart/" target="_blanc">Facebook</a></li>
-            <li><a href="https://www.instagram.com/smp_stan/" target="_blanc">Instagram</a></li>
-          </ul>
-        </div>
-
-
-
+    <footer class="mi-footer mi-width-100">
+      <div class="footer-icons">
+        <a href="https://www.google.com/maps/place/354+Mansfield+Rd,+Nottingham+NG5+2EF,+UK/@52.972918,-1.151473,15z/data=!4m5!3m4!1s0x4879c19e34132c61:0xb653fa256009363b!8m2!3d52.9729184!4d-1.151473?hl=en-GB">
+          <img src="./images/location-icon.png" alt="location-icon">
+        </a>
+        <a href="tel:07864152773">
+          <img src="./images/phone-icon.png" alt="phone-icon">
+        </a>
+        <a href="mailto:info@scalpandart.co.uk">
+          <img src="./images/mail-icon.png" alt="mail-icon">
+        </a>
+        <a href="https://www.facebook.com/scalpandart/">
+          <img src="./images/facebook-icon.png" alt="facebook-icon">
+        </a>
+        <a href="https://www.instagram.com/smp_stan/">
+          <img src="./images/instagram-icon.png" alt="instagram-icon">
+        </a>
       </div>
-    </div>
-
+      <img id="go-to-top-arrow-icon" class="go-to-top-arrow-icon" src="./images/go-to-top-arrow-icon.png" alt="back-to-top-arrow-icon">
+    </footer>
   </div>
-  <div class="container-fluid" id="aboutUs">
-    <h2>ABOUT US</h2>
-    <h3>S&A SMP SOLUTIONS was established to perform a Scalp micropigmentation to a high standard. Our practitioner,
-      Stan, is fully trained and certified. Being in the Hair Transplant industry for over eight years, he has
-      worked
-      alongside high profile surgeons in the field and obtained a detailed knowledge in the aspects of hair loss
-      solutions.
-
-    </h3>
-
-  </div>
-
-  <div class="container-fluid" id="wahtIsScalp">
-    <h2>WHAT IS SCALP MICROPIGMENTATION</h2>
-    <h3>Scalp Micropigmentation is safe, non-surgical and non-invasive treatment, which is affordable solution for
-      restoring confidence in both male and female individuals, who suffer from hair loss. Through detailed
-      micro-needles, organic pigment is deposited at the epidermal level of the scalp, naturally replicating the
-      appearance of real shaved hair follicle. This effect is 100% natural looking and is not recognizable as a hair
-      simulation. By accurately replicating your own natural hair follicles and hair color, scalp micropigmentation
-      can
-      add density to thinning areas, creating an undetectable illusion of thicker, stronger and fuller hair. Further
-      to
-      that SMP is affordable solution for covering scars, received from previous hair transplant surgery or any
-      other
-      reason. In most cases, an SMP treatment lasts for three to five years before the patient needs to have another
-      treatment done because of the fading of the pigments.
-
-    </h3>
-
-  </div>
-
-  <div class="container-fluid" id="howLong" style="background-image: url('images/Gradient1.png');">
-    <h2>HOW LONG DOES THE TREATMENT TAKE? </h2>
-
-
-
-    <div class="row">
-      <div class="col-5">
-
-        <h3>Scalp micropigmentation treatments usually are split over three sessions, although the actual time can
-          vary
-          depending on the area treated, the style you require, and other factors. Typically the first session lasts
-          from
-          two to four hours, while the additional sessions usually take less time as the correct blend of density
-          and
-          darkness is achieved on the scalp.
-
-
-        </h3>
-      </div>
-
-
-      <div class="col-7 pt-5">
-        <img src="images/Image 1.jpg">
-        <img src="images/Image 2.jpg">
-        <img src="images/Image 3.jpg"></div>
-    </div>
-
-  </div>
-
-
-  <div class="container-fluid" id="doesItHurt">
-    <h2>DOES IT HURT?</h2>
-    <h3>Micro pigmentation is a non-invasive treatment, therefore there is very little or no pain experienced. It is
-      possible the appearance of a mild skin redness, due to denser scalp nerve endings in some patients, which however
-      should settle within a few hours following the treatment.</h3>
-    <h3>There is no need for a special maintenance once treatments are complete. The procedure does not affect daily
-      routine and activities. A complete aftercare guide is provided throughout the treatment sessions.
-
-    </h3>
-
-  </div>
-
-
-
-  <div class="container-fluid" id="isSmp">
-    <h2>IS SMP JUST FOR MEN?</h2>
-
-    <div class="row">
-      <div class="col-6 pt-5 pb-2">
-
-        <h3>Scalp micropigmentation is suitable for both men and women however, there is a difference between SMP for
-          men and women.</h3>
-        <h3>Like men, women also can suffer from hair loss or thinning hair. In most of the cases however, women tend to
-          lose hair evenly and is very unlikely that they go completely bald. SMP is used to restore the denser look of
-          healthy hair and reduce the contrast between the scalp and the hairline in this case.</h3>
-        <h3>While most of the male patients would require to shave down their hair prior to the treatment, this is not
-          necessary for female patients. Instead, the practitioner applies pigmentation by parting the hair section by
-          section.</h3>
-      </div>
-
-
-      <div class="col-6 pt-5">
-        <img src="images/Image 4.jpg">
-        <img src="images/Image 5.jpg">
-        <img src="images/Image 6.jpg">
-      </div>
-    </div>
-
-  </div>
-
-  <div class="container-fluid" id="cost">
-    <h2>COST OF TREATMENT</h2>
-    <h3>SMP price is strongly individual from person to person and depends on the area treated. Providing us with a
-      photo of the concerned area is highly recommended to estimate the exact cost. Free phone consultation is also
-      available.</h3>
-
-
-
-
-    <div class="form-group" id="upload">
-      <label>UPLOAD YOUR IMAGE HERE <input type="file" id="BSbtnsuccess"></label>
-
-
-    </div>
-
-
-    <h3>
-      An initial consultation may be booked for a detailed information and explanation at the cost of 20£, which
-      will
-      be
-      fully refunded to you should you decide to book the complete treatment.
-
-    </h3>
-
-  </div>
-  <div class="container-fluid" id="ourClients" style="background-image: url('images/Gradient2.png');">
-    <h2>OUR CLIENTS</h2>
-    
-      
-  
-  </div>
-  <div class="container-fluid" id="footer">
-  <ul class="nav" id="navFooter">
-
-<li><a href="#"><img src="images/Location-small.png"></a></li>
-<li><a href="tel:07864152773"><img src="images/Phone-small.png"></a></li>
-<li><a href="mailto:info@scalpandart.co.uk"><img src="images/Mail-small.png"></a></li>
-<li><a href="https://www.facebook.com/scalpandart/" target="_blanc"><img src="images/Faceboo-.png"></a></li>
-<li><a href="https://www.instagram.com/smp_stan/" target="_blanc"><img src="images/Instagram-small.png"></a></li>
-
-
-
-
-
-  </ul>
-
-    
-  </div>-->
-
-
-
-
-
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
